@@ -1,4 +1,5 @@
 import './External.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function OrderlistHTML()
 {

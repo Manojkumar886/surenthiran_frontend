@@ -1,14 +1,17 @@
-import OrderlistHTML, { ImgHTML, ParaHTML, TablesHTML } from "./Components";
+// import OrderlistHTML, { ImgHTML, ParaHTML, TablesHTML } from "./Components";
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import 'bootstrap-icons/font/bootstrap-icons.css'
+import {  Usestatehook, Usestatehook2 } from "./Hookstart";
 
 function App()
 {
   return(
     <>
-    <p align='center'>Welcome to everyone</p>
+    <Usestatehook/>
+    <Usestatehook2/>
+    {/* <p align='center'>Welcome to everyone</p>
     <div align='center'>
         <OrderlistHTML/>
         <TablesHTML/>
@@ -17,7 +20,7 @@ function App()
         <ImgHTML/>
         <AdvancedDesign/>
     </div>
-    <p>Thank you</p>
+    <p>Thank you</p> */}
     </>
    
   );
