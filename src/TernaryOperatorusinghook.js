@@ -22,14 +22,15 @@ export let HookwithOperator=()=>
 
         (uservalue==='jackgets')?
         setDesignop({backgroundColor:'seagreen',textShadow:'4px 5px 6px pink'}):
+
         (uservalue==='Trousers')?
         setDesignop({backgroundImage:'url(./Trousers.jpg)'}):
+
         (uservalue==='Tshirts')?
         setDesignop({textTransform:'uppercase'}):
 
-
-        setDesignop({backgroundImage:"url('Tom-and-Jerry-Background.jpg')"})
-
+        setDesignop({backgroundImage:`url(${'Dreeses.jpg'})`,backgroundRepeat:'no-repeat',width:'200px',height:'500px'})
+        
         setDisplay(uservalue);
 
     }
