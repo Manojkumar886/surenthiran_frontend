@@ -19,7 +19,7 @@ export let Usestatehook=()=>
     return(
         <>
         <div className='row justify-content-center'>
-            <input className="form-control col-4" placeholder='please tell us your fav color' name={color} onChange={setvalue} />
+            <input className="form-control col-4" placeholder='please tell us your fav color' onChange={setvalue} />
             <button onClick={gettingvalue} className='btn btn-outline-success '>Show my fav color</button>
         </div>
         </>

@@ -4,13 +4,15 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import {  Usestatehook, Usestatehook2 } from "./Hookstart";
+import { HookwithOperator } from './TernaryOperatorusinghook';
 
 function App()
 {
   return(
     <>
-    <Usestatehook/>
-    <Usestatehook2/>
+    <HookwithOperator/>
+    {/* <Usestatehook/>
+    <Usestatehook2/> */}
     {/* <p align='center'>Welcome to everyone</p>
     <div align='center'>
         <OrderlistHTML/>
