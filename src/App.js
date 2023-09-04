@@ -5,12 +5,22 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import {  Usestatehook, Usestatehook2 } from "./Hookstart";
 import { HookwithOperator } from './TernaryOperatorusinghook';
+import { Homepage } from './Navbaractivation';
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import OrderlistHTML, { TablesHTML } from './Components';
 
 function App()
 {
   return(
     <>
-    <HookwithOperator/>
+    <BrowserRouter>
+      <Homepage/>
+      <Routes>
+        <Route path='mainpage' exact element={<TablesHTML/>}/>
+        <Route path='table' exact element={<OrderlistHTML/>}/>
+      </Routes>
+    </BrowserRouter>
+    {/* <HookwithOperator/> */}
     {/* <Usestatehook/>
     <Usestatehook2/> */}
     {/* <p align='center'>Welcome to everyone</p>
